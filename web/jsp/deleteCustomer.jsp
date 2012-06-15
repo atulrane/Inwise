@@ -1,10 +1,4 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: Minal
-  Date: Feb 17, 2012
-  Time: 3:48:01 PM
-  To change this template use File | Settings | File Templates.
---%>
+
 <%@ include file="/includes/_taglibInclude.jsp" %>
 <link rel="stylesheet" href="/css/general.css" type="text/css" media="screen" />
 <script type="text/javascript">

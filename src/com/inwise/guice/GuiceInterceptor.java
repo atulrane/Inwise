@@ -12,10 +12,7 @@ import javax.servlet.FilterConfig;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
-/**
- * @author Animesh Jain
- * With lots of help from sberan@gmail.com (Sam Beran)
- */
+
 @Intercepts({
     LifecycleStage.ActionBeanResolution,
     LifecycleStage.BindingAndValidation
@@ -26,13 +23,7 @@ public class GuiceInterceptor implements Interceptor {
   public static final String INJECTOR_FACTORY_CLASS = "GuiceInjector.Class";
   public static final String INJECTOR_FACTORY_METHOD = "GuiceInjector.Method";
 
-  /**
-   * 
-   * calling injectors post creation on Action beans and Interceptors
-   * @param context
-   * @return
-   * @throws Exception
-   */
+  
   public Resolution intercept(ExecutionContext context) throws Exception {
     Configuration conf = StripesFilter.getConfiguration();
 
