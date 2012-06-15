@@ -1,0 +1,16 @@
+exploded/*
+test-output/*
+out/*
+*.class
+*.bak
+*.iws
+*.iml
+*.ipr
+*.ids
+*.log
+propertyLocator.properties
+environmentLocator.properties
+database-state-before-test-order-workflow.xml
+.svn/*
+Thumbs.db
+.idea
